@@ -1,11 +1,7 @@
-import React from 'react';
+import type { NextPage } from 'next';
 
-const Index = () => {
-  return (
-    <div style={{ textAlign: 'center' }}>
-      <h1>Hello World</h1>
-    </div>
-  );
+const HomePage: NextPage = () => {
+  return <div>Welcome to the home page!</div>;
 };
 
-export default Index;
+export default HomePage;
